@@ -53,6 +53,4 @@ if (Test-Path -Path $scriptFunctionPath) {
     Write-Warning -Message "PSFunctions repository not cloned to '$scriptFunctionPath'.  Clone 'https://github.com/dotps1/PSFunctions' to '$scriptFunctionPath'."
 }
 
-$PSGalleryApiKey = (Get-Credential -UserName PSGallery).GetNetworkCredential().Password
-
 #endregion Variables
